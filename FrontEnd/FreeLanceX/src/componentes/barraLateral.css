@@ -1,0 +1,68 @@
+#barraLateral {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+#imgNome {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 100%;
+    align-items: center;
+}
+
+#imgNome img {
+    border-radius: 100%;
+    height: 70%;
+    width: 50%;
+    padding: 10px;
+}
+
+label {
+    padding: 10px 0px ;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+#info a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+#info a:hover {
+    background-color: red;
+}
+
+#sair {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 22px;
+}
+
+#sair a {
+    text-decoration: none;
+    color: black;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+#sair a:hover {
+    background-color: red;
+}

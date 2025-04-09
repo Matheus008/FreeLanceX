@@ -1,0 +1,73 @@
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    height: 99vh;
+}
+
+label {
+    padding: 10px 0px ;
+}
+
+#telaDeInformacao {
+    width: 75%;
+    height: 100%;
+    display: flex;
+}
+
+#informacoes {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px 0px 30px ;
+}
+
+#informacoes  input{
+    height: 7vh;
+    border: 1px solid black;
+    font-size: 20px;
+    
+}
+
+#nomeCompleto {
+    display: flex;
+    margin: 37px 0px 0px 0px;
+}
+
+#nomeCompleto div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#segundoNome {
+    margin: 0px 0px 0px 10px;
+}
+
+#informacoes button {
+    margin: 7vh 0px 0px 0px;
+    height: 10vh;
+    font-size: 20px;
+    background-color: rgb(13, 228, 13);
+}
+
+#imagem {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#imagem img {
+    width: 500px;
+    height: 50%;
+    margin: 50px 100px;
+}

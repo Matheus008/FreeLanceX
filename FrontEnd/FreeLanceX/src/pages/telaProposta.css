@@ -1,0 +1,54 @@
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    height: 99vh;
+}
+
+#telaDeProposta {
+    width: 75%;
+    height: 100%;
+    font-size: 25px;
+}
+
+#proposta {
+    border: 1px solid black;
+    margin: 20px;
+    display: flex;
+    width: 98%;
+    text-decoration: none;
+    color: black;
+}
+
+#imagemContratante {
+    width: 27%;
+}
+
+#imagemContratante img{
+    margin: 10px;
+    height: 26vh;
+    width: 38vh;
+}
+
+#informacoes {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    margin: 10px;
+}
+
+#descricao {
+    width: 100%;
+    height: 22vh;
+}
+
+#valorStatus {
+    display: flex;
+    justify-content: space-between;
+}
