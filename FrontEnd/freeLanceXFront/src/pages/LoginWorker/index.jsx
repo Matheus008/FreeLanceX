@@ -30,7 +30,7 @@ export default function LoginWorker() {
 
                     <button type="submit">Entrar</button>
                     <div className='bottomSignIn'>
-                    <Link>Não possui conta?</Link>
+                    <Link to="/register">Não possui conta?</Link>
                     <Link to="/">Voltar</Link>
                     </div>
                 </form>
